@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "watch": true,
+        "strict": true,
+        "target": "es6",
+        "removeComments": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "outDir": "build"
+    },
+
+    "include": [
+        "src/**/*"
+    ],
+
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
